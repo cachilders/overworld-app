@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overworld — Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #111;
+      color: #e0e0e0;
+      line-height: 1.6;
+      padding: 2rem 1.5rem;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 { color: #fff; margin-bottom: 0.25rem; }
+    .updated { color: #888; margin-bottom: 2rem; font-size: 0.9rem; }
+    h2 { color: #fff; margin-top: 2rem; margin-bottom: 0.5rem; font-size: 1.1rem; }
+    p, li { margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
+    a { color: #5ac8fa; }
+    .footer { margin-top: 3rem; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: February 28, 2026</p>
+
+  <p>Overworld is built on a simple principle: your data is yours. This policy explains what the app accesses, how it uses that data, and what it does not do.</p>
+
+  <h2>Data that stays on your device</h2>
+  <p>Overworld reads workout route data from Apple HealthKit and your current location from Core Location. All of this data is processed and stored entirely on your device. Nothing leaves your phone.</p>
+
+  <h2>HealthKit</h2>
+  <p>Overworld requests read-only access to workout routes (walking, running, cycling, and hiking) stored in Apple Health. This data is used solely to determine which map tiles you have explored. Overworld does not write to HealthKit.</p>
+  <p>In accordance with Apple's HealthKit guidelines:</p>
+  <ul>
+    <li>HealthKit data is never used for advertising or marketing.</li>
+    <li>HealthKit data is never sold, shared with, or disclosed to third parties.</li>
+    <li>HealthKit data is not stored in iCloud or any remote server.</li>
+  </ul>
+
+  <h2>Location</h2>
+  <p>Overworld requests "while in use" location access to center the map on your current position. Your location is not recorded, stored, or transmitted.</p>
+
+  <h2>No collection, no tracking</h2>
+  <p>Overworld does not:</p>
+  <ul>
+    <li>Collect personal information</li>
+    <li>Use analytics or crash reporting services</li>
+    <li>Contain advertising</li>
+    <li>Transmit any data over the network (other than loading map tiles from OpenTopoMap)</li>
+    <li>Require an account or sign-in</li>
+  </ul>
+
+  <h2>Map tiles</h2>
+  <p>Overworld loads topographic map imagery from <a href="https://opentopomap.org">OpenTopoMap</a>, an open-source mapping service. These requests contain standard HTTP metadata (your IP address and the geographic coordinates of the tiles being viewed). Overworld has no control over OpenTopoMap's data handling. No personal or HealthKit data is included in these requests.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted here with a revised date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or concerns: <a href="https://github.com/cachilders/overworld-app/issues">open an issue</a> on GitHub.</p>
+
+  <div class="footer">
+    <p><a href="/overworld-app/">&larr; Back to Overworld</a></p>
+    <p>&copy; 2026 Casey Childers</p>
+  </div>
+</body>
+</html>
